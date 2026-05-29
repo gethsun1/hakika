@@ -25,14 +25,14 @@ export function ExplainerVideoDialog() {
           className="h-11 border-white/20 bg-white/10 text-white hover:bg-white/15"
         >
           <CirclePlay className="size-4" />
-          Watch 2-Min Explainer
+          Watch 1-Min Explainer
         </Button>
       </DialogTrigger>
       <DialogContent className="max-w-[min(62rem,calc(100vw-2rem))] border-white/10 bg-zinc-950 p-4 text-white sm:max-w-4xl">
         <DialogHeader className="pr-8">
           <DialogTitle>Hakika Explainer</DialogTitle>
           <DialogDescription className="text-zinc-400">
-            A two-minute overview of milestone escrow, field verification, and
+            A one-minute overview of milestone escrow, field verification, and
             audit-ready release workflows.
           </DialogDescription>
         </DialogHeader>
