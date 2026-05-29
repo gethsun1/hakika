@@ -5,12 +5,12 @@ import {
   BadgeCheck,
   Banknote,
   Bot,
-  CirclePlay,
   ClipboardCheck,
   MapPinned,
   ShieldCheck,
 } from "lucide-react";
 
+import { ExplainerVideoDialog } from "@/components/demo/explainer-video-dialog";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -95,17 +95,7 @@ export default function Home() {
                     <ArrowRight className="size-4" />
                   </Link>
                 </Button>
-                <Button
-                  asChild
-                  size="lg"
-                  variant="outline"
-                  className="h-11 border-white/20 bg-white/10 text-white hover:bg-white/15"
-                >
-                  <a href="#explainer">
-                    <CirclePlay className="size-4" />
-                    Watch 2-Min Explainer
-                  </a>
-                </Button>
+                <ExplainerVideoDialog />
               </div>
             </div>
             <div className="rounded-xl border border-white/15 bg-zinc-950/68 p-4 shadow-2xl shadow-black/40 backdrop-blur">
